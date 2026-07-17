@@ -1,2 +1,2 @@
 # ClustrMaps
-Visitor count for personal website: Javascript based
+Visitor count for personal website: image based
