@@ -1,0 +1,60 @@
+{
+  "captured_at_local": "2026-09-11T04:38:08.845Z",
+  "project": {
+    "domain": "https://fernand.tech/",
+    "mapmyvisitors_project_id": 2249830,
+    "profile_link": "/web/1c7za",
+    "visible_label": "36 Total Pageviews",
+    "initial_hit_id": "0",
+    "initial_hit_date": "1789083849",
+    "last_hit_id_from_ajax": "16763536701"
+  },
+  "widget_url": "https://mapmyvisitors.com/widget_call_home.js?d=jphtf95t_gxsh22CxBQ_2xtA8csQOD-jp3rF5A27jqE&cl=1565c0&w=760&t=tt&cmo=9db7d6&cmn=ff6b4a&ct=111827&co=ffffff",
+  "map_js_url": "https://mapmyvisitors.com/map.js?d=jphtf95t_gxsh22CxBQ_2xtA8csQOD-jp3rF5A27jqE&cl=1565c0&w=a&t=tt&cmo=9db7d6&cmn=ff6b4a&ct=111827&co=ffffff",
+  "ajax_global_false": {
+    "markers": [
+      {
+        "id": "1122946231",
+        "lat": 28,
+        "lng": -68,
+        "name": "51 visits from unknown location"
+      }
+    ],
+    "realtime_events": [
+      {
+        "ip_id": 1122946231,
+        "location": "unknown location",
+        "flag": "",
+        "date": "2026-09-11 04:38:21",
+        "hits": 51,
+        "country_code": ""
+      }
+    ]
+  },
+  "ajax_global_true": {
+    "markers": [
+      {
+        "id": "1122946231",
+        "lat": 28,
+        "lng": -68,
+        "name": "51 visits from unknown location"
+      }
+    ],
+    "realtime_events": [
+      {
+        "ip_id": 1122946231,
+        "location": "unknown location",
+        "flag": "",
+        "date": "2026-09-11 04:38:21",
+        "hits": 51,
+        "country_code": ""
+      }
+    ],
+    "raw_count_assignment": "22763536715"
+  },
+  "notes": [
+    "visible_label is the widget label shown by MapMyVisitors for t=tt.",
+    "raw_count_assignment from globalTotal=true may not be the public pageview total; verify before using it.",
+    "markers/realtime_events are parsed from public JSONP responses and may represent current/recent server state, not full legacy ClustrMaps history."
+  ]
+}

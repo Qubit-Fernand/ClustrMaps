@@ -1,0 +1,1 @@
+https://mapmyvisitors.com/ajax/map?last_hit_id=0&initial_hit_id=0&initial=true&animate=true&user=0&url=%22https%3A%2F%2Ffernand.tech%2F%22&id=2249830&globalTotal=false&mapType=widget&callback=backup
