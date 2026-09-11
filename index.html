@@ -1,1 +1,44 @@
-<a href='https://clustrmaps.com/site/1bvl6'  title='Visit tracker'><img src='//clustrmaps.com/map_v2.png?cl=ffffff&w=370&t=tt&d=9bI6VFHtuxCsCfJZVHN_PrALvga3SyA4KIn5zNqc2BA&co=2d52ad'/></a>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Visitor Map</title>
+  <style>
+    html,
+    body {
+      width: 100%;
+      min-height: 100%;
+      margin: 0;
+      background: transparent;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    body {
+      display: grid;
+      place-items: center;
+      box-sizing: border-box;
+      padding: 8px;
+    }
+
+    .visitor-map-frame {
+      width: min(300px, calc(100vw - 16px));
+      min-height: 155px;
+      line-height: 0;
+    }
+
+    .visitor-map-frame #mapmyvisitors-widget {
+      max-width: 100%;
+    }
+  </style>
+</head>
+<body>
+  <main class="visitor-map-frame" aria-label="Visitor map for fernand.tech">
+    <script
+      type="text/javascript"
+      id="mapmyvisitors"
+      src="//mapmyvisitors.com/map.js?d=jphtf95t_gxsh22CxBQ_2xtA8csQOD-jp3rF5A27jqE&cl=ffffff&w=a"
+    ></script>
+  </main>
+</body>
+</html>
