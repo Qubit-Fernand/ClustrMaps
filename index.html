@@ -18,17 +18,21 @@
       display: grid;
       place-items: center;
       box-sizing: border-box;
-      padding: 8px;
+      padding: 0;
     }
 
     .visitor-map-frame {
-      width: min(300px, calc(100vw - 16px));
-      min-height: 155px;
+      width: min(760px, 100vw);
+      min-height: 373px;
       line-height: 0;
     }
 
     .visitor-map-frame #mapmyvisitors-widget {
       max-width: 100%;
+    }
+
+    .visitor-map-frame .mapmyvisitors-date {
+      display: none !important;
     }
   </style>
 </head>
@@ -37,7 +41,7 @@
     <script
       type="text/javascript"
       id="mapmyvisitors"
-      src="//mapmyvisitors.com/map.js?d=jphtf95t_gxsh22CxBQ_2xtA8csQOD-jp3rF5A27jqE&cl=ffffff&w=a"
+      src="https://mapmyvisitors.com/map.js?d=jphtf95t_gxsh22CxBQ_2xtA8csQOD-jp3rF5A27jqE&cl=ffffff&w=a&t=a"
     ></script>
   </main>
 </body>
