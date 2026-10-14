@@ -19,7 +19,10 @@ This repository is the tiny GitHub Pages target embedded by the personal website
 ## Layout Notes
 
 - Keep the page chrome-free: body padding `0`, transparent background, and a single centered `.visitor-map-frame`.
-- Current size target is `width: min(760px, 100vw)` and `min-height: 373px`, so it fills the Notion iframe block without the gray border look.
+- The page itself should not scroll inside Notion: keep `html, body { height: 100%; overflow: hidden; }`.
+- Current size target is `width: min(760px, 100vw, calc(100vh * 2.04))`. This keeps the 2.04:1 MapMyVisitors aspect ratio while letting a short Notion iframe shrink the map instead of creating vertical iframe scroll.
+- Do not use `min-height: 373px` without the viewport-height width cap; that can make the embedded page taller than the Notion block and create a small internal scroll area.
+- If gray vertical/horizontal handles appear around the map in Notion, first identify whether they are Notion's selected-block resize handles. They are not necessarily webpage scrollbars.
 - The date line is also hidden with `.mapmyvisitors-date { display: none !important; }` as a belt-and-suspenders guard.
 
 ## Verification
@@ -35,6 +38,7 @@ This repository is the tiny GitHub Pages target embedded by the personal website
 - Important backup files are `map.js`, `widget_call_home.js`, `ajax-map-global-*.jsonp`, `snapshot-summary.json`, `background-w760.png`, and `map-static.png`.
 - `snapshot-summary.json` separates the public visible label from raw/internal ajax fields. Do not treat `globalTotal=true`'s raw `count = ...` assignment as the real public total without verifying it; in the first backup it looked non-human-scale.
 - These backups preserve the currently accessible MapMyVisitors code and point data, but they do not recover the lost historical ClustrMaps visitor history.
+- Do not back up and commit full MapMyVisitors public profile HTML pages unless necessary; a prior attempt included a third-party Mapbox token and triggered GitHub push protection. The current backup script intentionally avoids that file.
 
 ## Repository Hygiene
 
